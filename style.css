@@ -1,0 +1,57 @@
+* {
+    font-family: Arial, sans-serif;
+}
+
+body {
+    background: linear-gradient(to right, rgb(135, 46, 1), rgb(250, 185, 5));
+}
+
+.icon {
+    width: 90px;
+    height: 90px;
+   color: whitesmoke;
+    margin: 30px auto 50px auto; /* top, right, bottom, left */
+    font-size: 90px;
+    text-align: center;
+}
+
+.main {
+    margin-top: 50px;
+   
+    width: 200px;
+    margin: auto;
+    text-align: center;
+    padding: 50px;
+}
+
+a {
+   text-decoration: none;
+   background-color: whitesmoke;
+    width: 100%;
+   padding: 20px 30px;
+   margin-bottom: 20px;
+   border-radius: 25px;
+   color: orange;
+   font-weight: bold;
+   font-size: 20px;
+   box-shadow: 0px 0px 20px grey;
+   transition: all 0.4s ease;
+  
+}
+
+a:hover {
+   background-color: transparent;
+    border: 3px solid whitesmoke;
+    color: whitesmoke;
+    box-shadow: none;
+}
+
+p {
+    color: whitesmoke;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.card {
+    margin-top: 100px;
+}
